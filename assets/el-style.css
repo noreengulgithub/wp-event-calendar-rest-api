@@ -1,0 +1,44 @@
+#el-events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.el-event {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.el-event img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.el-event-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.el-event-details .el-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.el-event-details .el-date {
+    color: #666;
+    font-size: 0.9em;
+    margin: 3px 0;
+}
+
+.el-event-details .el-description {
+    font-size: 0.95em;
+    color: #333;
+}
